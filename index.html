@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC D3 Choropleth Map</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    <div class="App">
+        <header>
+            <h1>D3 CHOROPLETH MAP</h1>
+        </header>
+
+        <main>
+
+            <h1 id="title">U.S. Educational Attainment</h1>
+            <h2 id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h2>
+            <div id="chart-div">
+                <svg id="chart-svg"></svg>
+            </div>
+            <p class="subtext" id="source">Source: <a href='https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx'>USDA Economic Research Service</a></p>
+
+        </main>
+
+        <footer>
+            <p>
+                Developed as an assignment for
+                <a
+                    href="https://www.freecodecamp.org/learn/data-visualization/data-visualization-projects/visualize-data-with-a-choropleth-map" target="_blank" rel="noopener noreferrer">freeCodeCamp</a>
+                in April 2020 by
+                <a href="https://codepen.io/SimonRhe" target="_blank" rel="noopener noreferrer">SimonRhe</a>
+                using the following front-end libraries: <a href="https://d3js.org/" target="_blank"
+                    rel="noopener noreferrer"><strong>D3</strong></a>, <a href="https://github.com/topojson/topojson" target="_blank"
+                    rel="noopener noreferrer"><strong>TopoJSON</strong></a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
